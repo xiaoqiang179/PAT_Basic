@@ -3,7 +3,6 @@
 #include <math.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <limits.h>
 int cmp(const void* p,const void* q){
     double a=*(const double*)p;
     double b=*(const double*)q;
