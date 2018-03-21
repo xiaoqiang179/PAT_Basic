@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main (void)
-{
+int main (void){
     char ch;
     int a[10]={0},i;
     while((ch=getchar())!='\n'){
