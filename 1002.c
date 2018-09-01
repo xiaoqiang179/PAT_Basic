@@ -5,7 +5,6 @@ int main(){
     while((ch=getchar())!='\n'){
         sum=sum+ch-'0';
     }
-    
     while(sum>0){
         a[i]=sum%10;
         sum=sum/10;
@@ -30,6 +29,6 @@ int main(){
         }
         i--;
     }
+    printf("\n");
     return 0;
 }
-
